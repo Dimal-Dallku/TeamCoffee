@@ -2,6 +2,5 @@
 <?php
 phpinfo();
 echo "Hello we are team coffee!";
-echo "Testing";
 
 ?>
