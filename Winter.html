@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML Team COFFEE</title>
+        <style>
+            body {
+                    font-family:'Times New Roman', Times, serif;
+                    background-image: url(http://staff.hamk.fi/~tsaksa/temp/background-image.jpg);  
+                }
+
+            .btn-primary {
+                     background-color: burlywood;
+                        }
+
+            header {
+                    text-align: center;
+                    font-size: 40px;
+                    height: 80px;
+                    width: 100%;
+                    }
+
+            main {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    text-align: center;
+                  }
+
+            footer {
+                    text-align: right;
+                    }
+
+/*
+!important means that this property has the highgest priority rule 
+.btn-primary {
+    background-color: black !important;
+}
+*/
+
+                @media only screen and (max-width: 1000px) {
+            body {
+                    background-color: rgb(125, 255, 3);
+                 }
+                 }
+
+
+                @media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .btn-primary {
+        background-color: red;
+    }
+                    }
+        </style>
+</head>
+<body>
+    <header>
+      
+        TEAM COFFEE !!!
+
+    </header>
+<main>
+    <div>
+        <div class="container">
+            <div class="row"></div>
+                <div class="col-sm-11">
+                        <p> In winter, the mean temperature remains below 0°C, but warm airflows can raise the daily high above 0°C at times. 
+                            Winter usually begins in mid-October in Lapland and during November in the rest of Finland, though not until December in the southwestern archipelago. 
+                            It thus takes about two months for winter to proceed from Lapland to Åland. The sea and large lakes slow down the progress of winter. 
+                            Winter is the longest season in Finland, lasting for about 100 days in southwestern Finland and 200 days in Lapland
+                        <p>
+                    <p>
+                        <article>
+                        <h3>Winter in Finland</h3>
+                        <p> The coldest day of winter is usually well after the winter solstice, at the end of January everywhere except the maritime islands and coastal regions, where the slower cooling of the sea delays the coldest period until the beginning of February. 
+                            The coldest temperatures in winter are from -45°C to -50°C in Lapland and eastern Finland; from -35°C to -45°C elsewhere; and -25°C to -35°C over islands and coastal regions. 
+                            The lowest temperature recorded in Helsinki is -34.3°C (1987). The lowest temperature recorded at any weather station in Finland as of 2010 is -51.5°C (1999).
+                        </p>
+                        </article>
+                    <p>
+                        <a href="https://en.ilmatieteenlaitos.fi/seasons-in-finland"><button type="button" class="btn btn-primary">Read more</button></a>
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+            <aside>
+                <img src="https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2017/08/snowy-landscape-in-finland.jpg">
+            </aside>
+        </div>
+</main>
+<div>
+    <footer>
+        LAB 2 Assignment
+    </footer>
+</div>
+</body>
+</html>
