@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML Team COFFEE</title>
+        <style>
+            body {
+                    font-family:'Times New Roman', Times, serif;
+                    background-image: url(http://staff.hamk.fi/~tsaksa/temp/background-image.jpg);  
+                }
+
+            .btn-primary {
+                     background-color: burlywood;
+                        }
+
+            header {
+                    text-align: center;
+                    font-size: 40px;
+                    height: 80px;
+                    width: 100%;
+                    }
+
+            main {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    text-align: center;
+                  }
+
+            footer {
+                    text-align: right;
+                    }
+
+/*
+!important means that this property has the highgest priority rule 
+.btn-primary {
+    background-color: black !important;
+}
+*/
+
+                @media only screen and (max-width: 1000px) {
+            body {
+                    background-color: rgb(125, 255, 3);
+                 }
+                 }
+
+
+                @media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .btn-primary {
+        background-color: red;
+    }
+                    }
+        </style>
+</head>
+<body>
+    <header>
+      
+        TEAM COFFEE !!!
+
+    </header>
+<main>
+    <div>
+        <div class="container">
+            <div class="row"></div>
+                <p>This page is gonna have to be fixed</p>
+            </div>
+        <div class="container">
+    </div>
+</main>
+<div>
+    <footer>
+        LAB 3 Assignment
+    </footer>
+</div>
+</body>
+</html>
