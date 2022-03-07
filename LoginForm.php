@@ -6,6 +6,9 @@
   	        <label for="fname">first name:</label> <input type="text" id="fname" name="fname" required></p>
         </div>
         <div class="col-md">
+  	        <label for="fname">first name:</label> <input type="text" id="fname" name="fname" required></p>
+        </div>
+        <div class="col-md">
   	        <label for="lname">Last name:</label> <input type="text" id="lname" name="lname" required></p>
         </div>
         <div class="col-md">
@@ -18,6 +21,7 @@
 	</form>
 </body>
 <script>
+    const fname = document.getElementById('fname')
     const fname = document.getElementById('fname')
     const lname = document.getElementById('lname')
     const email = document.getElementById('email')
